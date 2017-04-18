@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar_list"
+            android:id="@+id/toolbar_grid"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
@@ -20,6 +20,10 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main" />
+    <GridView
+        android:numColumns="3"
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></GridView>
 
 </android.support.design.widget.CoordinatorLayout>
