@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<fun.sombrero.app.flow.photopicker.SquareContainer
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="match_parent"
-    android:layout_width="match_parent"
-    android:orientation="horizontal">
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent" >
 
     <ImageView
         android:id="@+id/image_item"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_gravity="left"
-        android:layout_weight="1"
-        android:minHeight="?android:attr/listPreferredItemHeightSmall"
-        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
-        android:paddingStart="?android:attr/listPreferredItemPaddingStart" />
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true" />
 
-</LinearLayout>
+</fun.sombrero.app.flow.photopicker.SquareContainer>
